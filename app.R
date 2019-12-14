@@ -31,7 +31,7 @@ library(TTR)
 
 #Reading the data
 #crime <- read.csv("data/crime.csv")
-crime <- read.csv("crime.csv")
+crime <- read.csv("crime.csv.zip/")
 
 #Omitting the NAs
 crime <- na.omit(crime)
